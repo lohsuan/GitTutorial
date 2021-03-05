@@ -6,14 +6,26 @@
 #include <string>
 
 // using namespace System;
-//bool guess(	int number) {
-//	return true;
-//}
+
+bool Guess(	int number) {
+	static int target = -1;
+
+	if (target == -1) {
+		Random r;
+		target = r.Next() % 100 + 1;
+	}
+	if (number == target)
+		return true;
+	return false;
+}
 
 int main()
 {
-	printf("Hello world!");
-
+	int guess;
+	do {
+		std::cin >> guess;
+	} while (!Guess(guess));
+	return 0;
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
@@ -26,3 +38,4 @@ int main()
 //   4. 使用 [錯誤清單] 視窗，檢視錯誤
 //   5. 前往 [專案] > [新增項目]，建立新的程式碼檔案，或是前往 [專案] > [新增現有項目]，將現有程式碼檔案新增至專案
 //   6. 之後要再次開啟此專案時，請前往 [檔案] > [開啟] > [專案]，然後選取 .sln 檔案
+
