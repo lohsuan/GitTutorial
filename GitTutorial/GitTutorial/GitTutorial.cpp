@@ -5,14 +5,15 @@
 // #include "stdafx.h"
 #include <string>
 
-// sing namespace System;
-bool Guess(	int number) {
-	return true;
-}
+// using namespace System;
+//bool guess(	int number) {
+//	return true;
+//}
 
 int main()
 {
-    
+	printf("Hello world!");
+
 }
 
 // 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
