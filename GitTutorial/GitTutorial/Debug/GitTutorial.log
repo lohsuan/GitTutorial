@@ -1,7 +1,12 @@
 <<<<<<< HEAD
 ﻿  GitTutorial.cpp
+  GitTutorial.vcxproj -> C:\Users\bobo\Desktop\oopl\GitTutorial\GitTutorial\Debug\GitTutorial.exe
+=======
+<<<<<<< HEAD
+﻿  GitTutorial.cpp
   GitTutorial.vcxproj -> C:\Users\zoezo\OneDrive\文件\GitTutorial\GitTutorial\Debug\GitTutorial.exe
 =======
 ﻿  GitTutorial.cpp
   GitTutorial.vcxproj -> C:\Users\bobo\Desktop\oopl\GitTutorial\GitTutorial\Debug\GitTutorial.exe
 >>>>>>> 18c1c30857550709cb4efc62c1fc1d7a8178ffb7
+>>>>>>> c414ea7799b3736bb3653c5b92957ee833f04e9b
